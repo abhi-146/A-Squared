@@ -1,0 +1,107 @@
+.work-together-section {
+    background-color: #E8EEF7;
+    padding: 70px;
+    padding-top: 40px;
+  }
+  
+  .work-together-container {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  
+  .left-side {
+    width: 100%;
+  }
+  
+  .ready-to-help {
+    font-family: "DM Serif Text", serif;
+    color: grey;
+    font-size: 14px; 
+  }
+  
+  .work-together-title {
+    font-family: "DM Serif Text", serif;
+    color: black;
+    font-size: 63px; 
+    margin: 10px 0; 
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .list-property-btn,
+  .get-in-touch-btn {
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-property-btn {
+    font-weight: 500;
+  font-size: 17px;
+  border: 1px solid #3A307F;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 30px;
+  padding: 15px 10px;
+  background-color: #fff;
+  color: #3A307F;
+  cursor: pointer;
+  }
+  
+  .get-in-touch-btn {
+    font-weight: 500;
+  font-size: 17px;
+  border: 1px solid #3A307F;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 30px;
+  padding: 15px 10px;
+  background-color: #fff;
+  color: #3A307F;
+  cursor: pointer;
+  }
+
+  .right-side{
+    width: 100%;
+  }
+  
+  .right-side img {
+    top: 70px;
+    position: relative;
+    width: 90%;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .work-together-section {
+        background-color: #E8EEF7;
+        padding: 40px;
+    }
+
+    .work-together-container {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right-side img {
+        top: 41px;
+        position: relative;
+        width: 100%;
+    }
+    .buttons{
+        position: relative;
+        justify-content: center;
+    }
+    .work-together-title {
+        text-align: center;
+    }
+    .ready-to-help {
+        text-align: center;
+    }
+  }

@@ -1,0 +1,58 @@
+/* Awards.css */
+
+.est-awards-section {
+    background-color: #3373a9;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .est-awards-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .est-awards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .est-award-card {
+    flex: 1;
+    max-width: 250px;
+    margin: 20px;
+    background-color: #fff;
+    color: #3373a9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .est-award-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .est-award-title {
+    font-size: 18px;
+    padding: 20px;
+    background-color: #fff;
+    color: #3373a9;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .est-awards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .est-award-card {
+      max-width: 80%;
+    }
+  }
+  

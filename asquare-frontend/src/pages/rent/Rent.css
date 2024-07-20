@@ -1,0 +1,94 @@
+.rent-section {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.rent-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/rent_image.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  animation: zoomIn 5s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.rent-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rent-title {
+  font-family: "DM Serif Text", serif;
+  font-size: 4rem;
+  color: white;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+}
+
+.rent-subtitle {
+  font-family: "DM Serif Text", serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  opacity: 0;
+  animation: slideIn 2s forwards 0.5s;
+}
+
+.explore-button {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  animation: slideIn 2s forwards 1s;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #000;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.rent-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+}

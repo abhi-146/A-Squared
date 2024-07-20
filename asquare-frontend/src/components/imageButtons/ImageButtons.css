@@ -1,0 +1,63 @@
+/* ImageButtons.css */
+
+.est-image-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .est-image-button {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .est-image-button img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .est-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .est-button-overlay h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .est-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3373a9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .est-button:hover {
+    background-color: #255785;
+  }
+  
+  @media (max-width: 768px) {
+    .est-image-buttons {
+      flex-direction: column; 
+    }
+  }
+  

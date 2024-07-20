@@ -1,0 +1,164 @@
+.sadmin-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.admin-sidebar {
+  width: 245px;
+  height: 100%;
+
+  overflow: hidden;
+  background-color: #0077b6;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.admin-sidebar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px 0px;
+}
+
+.admin-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.admin-sidebar ul li {
+  margin: 10px 0px;
+}
+
+.admin-sidebar li {
+  cursor: pointer;
+  padding: 10px 0;
+  text-align: center;
+}
+.admin-sidebar li h3 {
+  color: white;
+}
+
+.admin-sidebar p {
+  color: white;
+  font-size: 1.2rem;
+}
+.back-to-home {
+  border: solid 1.5px #3fa2f6;
+  background-color: #3fa2f6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  /* font-size: 1.17rem; */
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: white;
+}
+.back-to-home:hover {
+  background-color: #74b5ee;
+}
+#sign-out {
+  border: solid 1.5px #3fa2f6;
+  background-color: #3fa2f6;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.admin-sidebar ul li li {
+  font-weight: 600;
+}
+
+.admin-sidebar ul li li:hover {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+
+.admin-content-container {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.admin-content {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  min-height: 400px;
+}
+.admin-content h2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.admin-content p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: medium;
+}
+.admin-content form {
+  /* margin: 0px 300px;
+  border: solid 1px #0077b6;
+*/
+align-items: center;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-group {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+
+  margin-bottom: 5px;
+}
+.sadmin-panel input{
+  width: 100%;
+}
+.sadmin-panel input[type="text"],
+.sadmin-panel input[type="password"] {
+  padding:  10px;
+
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.admin-sidebar ul li h3,
+.admin-sidebar ul li a {
+  font-weight: 400;
+}
+
+.admin-sidebar ul li ul li {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+#sign-out p{
+  margin: 0;
+}

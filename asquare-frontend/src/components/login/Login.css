@@ -1,0 +1,141 @@
+.login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.back-to-website {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back-span {
+    color: #4eb5cb;
+    font-size: 10px;
+}
+
+.back-icon {
+    color: #4eb5cb;
+    margin-right: 5px;
+}
+
+.login-logo {
+    width: 100px;
+    height: 80px;
+    margin: 5px 0;
+}
+
+.login-heading {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+p a {
+    color: #4eb5cb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.google-btn, .facebook-btn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+}
+
+.divider p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.input-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.term-service {
+    font-size: 10px;
+}
+
+.continue-btn {
+    background: #4eb5cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.close-icon{
+    position: relative;
+    left: 95%;
+    cursor: pointer;
+    border: 1px solid #215462;
+    width: 7%;
+    color: #215462;
+    border-radius: 12px;
+}

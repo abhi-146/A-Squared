@@ -1,0 +1,21 @@
+.map-container{
+    position: relative;
+    left: 60px;
+    height: 400px; 
+    width: 90%; 
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+
+      left: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .map-container {
+
+      left: 20px;
+    }
+  }

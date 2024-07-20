@@ -1,0 +1,21 @@
+.edit-blog {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.create-blog-form.edit-blog-form{
+    background-color: white;
+}
+
+.edit-blog-heading {
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px 0; 
+    font-size: 2rem;
+    color: #3373a9;
+}
+
+.image-upload-form{
+    display: flex;
+    flex-direction: column;
+}

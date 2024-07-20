@@ -1,0 +1,423 @@
+.offplan-property-section {
+  padding: 50px;
+  padding-top:0;
+  background-color: white;
+}
+
+.offplan-containerr {
+  padding: 50px;
+}
+
+.offplan-propertyy-container {
+  display: flex;
+  align-items: center;
+}
+
+.offplan-left-container {
+  flex: 2;
+  margin-right: 10px;
+}
+
+.offplan-left-container img {
+  width: 100%;
+  height: auto;
+}
+
+.offplan-right-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.small-image {
+  margin-bottom: 4px;
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  position: relative;
+}
+
+.show-photos-btn,
+.view-map-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.show-photos-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.view-map-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.offplan-propertyy-info-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.offplan-heading {
+  font-size: 30px;
+  margin: 30px 0 10px 0;
+}
+
+.offplan-sub-heading {
+  font-size: 20px;
+  color: #707070;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+}
+
+.offplan-developer-name {
+  display: flex;
+  margin-top: 30px;
+  background-color: #F7F7FC;
+  padding: 30px;
+  border-radius: 10px;
+  color: gray;
+  font-weight: 300;
+}
+
+.offplan-developer-img img{
+  width: 75px;
+  height: 75px;
+}
+
+.offplan-horizontal-line {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+
+.key-info-container {
+  padding: 20px;
+}
+
+.key-info-heading {
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.key-info-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.key-info-box {
+  width: 30%;
+}
+
+.key-info-title {
+  color: grey;
+}
+
+.key-info-map {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.key-info-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.key-info-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.payment-plan-container {
+  padding: 20px;
+}
+
+.payment-plan-heading {
+  margin-bottom: 40px;
+}
+
+.payment-plan-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.payment-plan-box {
+  background-color: #f7f7f7;
+  padding: 25px;
+  margin: 0 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.payment-plan-box h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.payment-plan-box p {
+  margin: 5px 0;
+}
+
+.payment-plan-arrow {
+  font-size: 24px;
+  color: #000;
+}
+
+.timeline-container {
+  padding: 20px;
+  background-color: #f7f7fc;
+  border-radius: 8px;
+}
+
+.timeline-container h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.timeline-item {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-date{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #4caf50;
+  margin-right: 10px;
+}
+
+.notcomp-icon{
+  font-size: 32px;
+  color: #444447;
+  margin-right: 10px;
+}
+
+.timeline-item p {
+  margin: 0;
+}
+
+.timeline-item p:first-of-type {
+  flex: 1;
+}
+
+.offplan-about-description h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.offplan-about-description-container p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.offplan-project-masterplan h2 {
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.toggle-button-offplan {
+
+  color: white;
+  border: none;
+  background-color: #4eb5cb;
+
+
+  font-weight: 500;
+  font-size: 17px;
+
+  border-radius: 10px;
+  width: auto;
+  margin-top: 30px;
+  padding: 15px 10px;
+
+  cursor: pointer;
+}
+
+
+.masterplan-img {
+  padding: 30px 0px;
+}
+
+.masterplan-img img {
+  border-radius: 10px;
+}
+
+.offplan-amenities h2 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.offplan-amenities-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.offplan-amenities-container ul {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.offplan-list li {
+  list-style: initial;
+}
+
+.offplan-right-ad-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.offplan-right-ad-container .small-image{
+  position: sticky;
+  top: 100px;
+
+}
+
+.offplan-close-button{
+  position: absolute;
+    top: -40px;
+    right: -1px;
+    background-color: var(--PrimaryColor);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .offplan-property-section {
+    padding: 0px;
+    background-color: white;
+}
+.offplan-containerr {
+  padding: 20px;
+}
+.offplan-propertyy-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.offplan-left-container {
+  flex: 2;
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+.buttons {
+  position: relative;
+  margin-top: 20px;
+}
+.offplan-propertyy-info-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+.offplan-left-container {
+  flex: 2;
+  margin-bottom: 5px;
+}
+
+.payment-plan-flex {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.accordian-container{
+  padding-top: 5%;
+}
+
+.toggle-button-offplan {
+  color: white;
+  border: none;
+  background-color: #4eb5cb;
+
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 30px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.offplan-amenities-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+}
+
+.slider-popup{
+  width: 90%;
+  height: 75%;
+
+}
+.close-button{
+  position: absolute;
+    top: -40px;
+    right: -1px;
+    background-color: var(--PrimaryColor);
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offplan-close-button {
+  position: relative;
+  top: -40px;
+  left: 81%;
+  background-color: var(--PrimaryColor);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}

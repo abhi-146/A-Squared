@@ -1,0 +1,125 @@
+/* Base styles */
+.single-blog-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    min-height: 100vh;
+}
+
+.navbar-placeholder {
+    height: 18vh;
+    background-color: black;
+    width: 100%;
+}
+
+.blog-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-details {
+    margin-bottom: 20px;
+}
+
+.blog-details h1 {
+    margin-bottom: 10px;
+}
+
+.blog-details p {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.more-blogs {
+    margin-top: 20px;
+}
+
+.more-blogs h2 {
+    margin-bottom: 10px;
+}
+
+.more-blogs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.more-blogs li {
+    margin-bottom: 10px;
+}
+
+.more-blogs a {
+    color: #3373a9;
+    text-decoration: none;
+}
+
+.more-blogs a:hover {
+    text-decoration: underline;
+}
+
+.single-blog-sidebar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ad-image {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .blog-container {
+        flex-direction: row;
+    }
+
+    .blog-content {
+        margin-right: 20px;
+    }
+
+    .single-blog-sidebar {
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        top: 130px; /* Adjust this value based on your layout */
+        align-self: flex-start; /* To make it start from the top of the container */
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blog-content {
+        margin-right: 0;
+    }
+
+    .single-blog-sidebar {
+        margin-top: 20px;
+        width: 100%;
+        position: static;
+    }
+}

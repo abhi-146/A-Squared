@@ -1,0 +1,212 @@
+:root {
+  --border-color: #e0e0e0;
+  --bg-color: #fafafa;
+  --input-border-color: #ccc;
+  --input-focus-border-color: #f44336;
+  --input-hover-bg-color: #f0f0f0;
+  --button-bg-color: #f44336;
+  --button-hover-bg-color: #d32f2f;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --focus-shadow-color: rgba(244, 67, 54, 0.2);
+  --option-bg-color: #f7f7f7;
+  --option-selected-bg-color: #e0e0f8;
+}
+
+.search-bar-container {
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  padding: 15px 0;
+  background-color: var(--bg-color);
+}
+
+.search-bar {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 0 2px 4px var(--box-shadow-color);
+}
+
+.dropdown,
+.custom-dropdown .dropdown-header,
+.price-dropdown .dropdown-header {
+  padding: 10px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px var(--box-shadow-color);
+  min-height: 50px;
+  min-width: 150px;
+  background: white;
+  font-size: 1rem;
+}
+
+.custom-dropdown.dropdown-header, .price-dropdown.dropdown-header {
+  text-align: center;
+}
+
+
+
+.dropdown.active,
+.custom-dropdown .dropdown-header.active,
+.price-dropdown .dropdown-header.active {
+  border-color: var(--input-focus-border-color);
+}
+
+.dropdown option:hover,
+.custom-dropdown .dropdown-header:hover,
+.price-dropdown .dropdown-header:hover {
+  background-color: var(--input-hover-bg-color);
+}
+
+
+
+.custom-dropdown,
+.price-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-header {
+  background-color: white;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 10;
+  width: 325px;
+  background-color: white;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px var(--box-shadow-color);
+  z-index: 9999;
+}
+
+.price-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.price-input {
+  width: 135px;
+  padding: 5px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  outline: none;
+}
+
+.price-separator {
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+
+.dropdown-section {
+  padding: 10px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.option {
+  padding: 5px 10px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 3px;
+  background-color: var(--option-bg-color);
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: var(--option-selected-bg-color);
+}
+
+.reset-button,
+.apply-button {
+  display: block;
+  padding: 10px;
+  background-color: var(--button-bg-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.reset-button:hover,
+.apply-button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.find-button,
+.clear-button {
+  padding: 10px 20px;
+  background-color: var(--button-bg-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 4px var(--box-shadow-color);
+}
+
+.find-button:hover,
+.clear-button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.find-button:focus,
+.search-input:focus,
+.dropdown:focus,
+.custom-dropdown .dropdown-header:focus,
+.price-dropdown .dropdown-header:focus {
+  border-color: var(--input-focus-border-color);
+  box-shadow: 0 0 0 2px var(--focus-shadow-color);
+}
+
+.dropdown-buttons{
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .dropdown,
+  .find-button,
+  .clear-button,
+  .search-input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .custom-dropdown,
+  .price-dropdown {
+    width: 100%;
+  }
+
+  .dropdown-header,
+  .dropdown-menu,
+  .price-menu {
+    width: 100%;
+  }
+}

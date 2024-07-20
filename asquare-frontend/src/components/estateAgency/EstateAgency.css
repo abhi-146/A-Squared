@@ -1,0 +1,82 @@
+/* EstateAgency.css */
+
+.estestate-bluebg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3373a9;
+    padding: 50px;
+    color: #fff; /* Text color for better contrast */
+  }
+  
+  .estestate-left {
+    flex: 1;
+  }
+  .estestate-left * {
+    font-family: "DM Serif Text", serif;
+  }
+  
+  .estestate-right {
+    flex: 1;
+    text-align: center; /* Center align the image */
+  }
+
+  .estestate-right img{
+    width: 80%
+  }
+  
+  .estestate-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .estestate-left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .estestate-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+.estestate-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3373a9;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .estestate-btn:hover {
+    background-color: #eee;
+    color: #3373a9;
+  }
+  
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .estestate-bluebg {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .estestate-left,
+    .estestate-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .estestate-left h1 {
+      font-size: 28px;
+    }
+  
+    .estestate-left p {
+      font-size: 16px;
+    }
+  }

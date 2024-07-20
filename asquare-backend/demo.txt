@@ -1,0 +1,50 @@
+
+{
+    "images": [
+      "image1.jpg"
+    ],
+    "community":"Dubai Creek Harbour",
+    "title": "Luxury Apartments in Downtown",
+    "rent": "Starting from AED 100,000 per year",
+    "developer": {
+      "title": "ABC Developers",
+      "logo": "abc_logo.png"
+    },
+    "location": "Downtown Dubai",
+    "information": {
+      "deliveryDate": "2025-01-01",
+      "numberOfBuildings": 3,
+      "paymentPlan": "Installment plan available",
+      "governmentFees": 10000,
+      "propertyType": "Apartment"
+    },
+    "description": "Experience luxury living in the heart of Dubai with stunning views.",
+    "paymentPlan": {
+      "downPayment": 20000,
+      "duringConstruction": 5000,
+      "onHandover": 75000
+    },
+    "projectTime": {
+      "projectAnnouncement": "2023-06-01",
+      "constructionStarted": "2024-01-01",
+      "expectedCompletion": "2025-06-01"
+    },
+    "units": {
+      "apartment": [
+        "1 Bedroom",
+        "2 Bedrooms",
+        "3 Bedrooms"
+      ]
+    },
+    "masterplan": [
+      "Phase 1 - Residential Towers",
+      "Phase 2 - Shopping Mall"
+    ],
+    "amenities": [
+      "Swimming pool",
+      "Gym",
+      "Spa",
+      "Kids play area"
+    ]
+  }
+  

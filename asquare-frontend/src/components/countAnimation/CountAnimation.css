@@ -1,0 +1,44 @@
+.animation-section {
+    padding: 50px;
+}
+
+.count-animation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count-animation-item {
+    text-align: center;
+}
+
+.count-animation-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.count-animation-label {
+    font-family: "DM Serif Text", serif;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+@media screen and (max-width: 600px) {
+    .count-animation-container {
+        gap: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .count-animation-label {
+        font-family: "DM Serif Text", serif;
+        font-size: 1.1rem;
+        color: #333;
+        margin-top: 20px;
+    }
+
+}
