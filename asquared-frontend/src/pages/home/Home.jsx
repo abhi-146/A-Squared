@@ -9,7 +9,7 @@ import dummy_property from "../../assets/dummy_property.jpg";
 
 import better_peoples from "../../assets/better-peoples.jpg";
 import better_results from "../../assets/better-result.jpg";
-import better_exposures from "../../assets/better-exposure.jpg";
+import better_exposures from "../../assets/Better-exposure.jpg";
 import better_insights from "../../assets/better-insights.jpg";
 
 import herocover from "../../assets/hero_cover.mp4";
