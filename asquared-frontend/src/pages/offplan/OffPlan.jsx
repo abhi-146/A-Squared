@@ -21,6 +21,17 @@ const OffPlan = () => {
     }
   };
 
+  const heroStyle = {
+    position: 'relative',
+    width: '100%',
+    height: '100vh',
+    backgroundImage: `url(${offPlanImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    overflow: 'hidden',
+    animation: 'zoomIn 5s ease-in-out forwards',
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -68,7 +79,7 @@ const OffPlan = () => {
   return (
     <>
       <section className="offPlan-section">
-        <div className="offPlan-hero">
+        <div className="offPlan-hero" style={heroStyle}>
           <div className="offPlan-overlay">
             <h1 className="offPlan-title">OFF PLAN</h1>
             <p className="offPlan-subtitle">A SQUARED REAL ESTATE</p>

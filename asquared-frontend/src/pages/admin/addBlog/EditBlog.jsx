@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // Import Quill styles
-import './editBlog.css';
+import './EditBlog.css';
 import axiosInstance from '../axiosInstance';
 
 import { Link } from 'react-router-dom';

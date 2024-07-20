@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./letsworktogether.css"
+import "./Letsworktogether.css"
 
 import letsworktogether from "../../assets/Lets_Work_Together_.png";
 
