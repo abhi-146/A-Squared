@@ -16,9 +16,13 @@ const BlogPage = () => {
 
     useEffect(() => {
         const fetchBlogs = async () => {
-            const res = await apiInstance.get(`/blogs?page=${currentPage}&blogType=${filter}`);
-            setBlogs(res.data.blogs);
-            setTotalPages(res.data.totalPages)
+            try {
+                const res = await apiInstance.get(`/blogs?page=${currentPage}&blogType=${filter}`);
+                setBlogs(res.data.blogs);
+                setTotalPages(res.data.totalPages);
+            } catch (error) {
+                console.error('Error fetching blogs:', error);
+            }
         };
 
         fetchBlogs();
