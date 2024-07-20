@@ -3,6 +3,17 @@
   background-color: #fff;
 }
 
+.offPlan-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/offplan_image.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  animation: zoomIn 5s ease-in-out forwards;
+}
+
 @keyframes zoomIn {
   0% {
     transform: scale(1);
